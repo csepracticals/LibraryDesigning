@@ -16,9 +16,3 @@ typedef struct dll_{
  * a new empty doubly linked list*/
 dll_t *
 get_new_dll();
-
-/*Public Function declaration to add a new application
- * data to DLL*/
-/* return 0 on success, -1 on failure*/
-int
-add_data_to_dll (dll_t *dll, void *app_data);
