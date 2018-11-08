@@ -16,3 +16,6 @@ typedef struct dll_{
  * a new empty doubly linked list*/
 dll_t *
 get_new_dll();
+
+int
+add_data_to_dll (dll_t *dll, void *app_data);
