@@ -36,7 +36,8 @@ Step 5 : Now write a diff function in diff.c file. Signature of the function sh
     diff (void *root1,    /*pointer to starting node of list 1*/
           void *root2,    /*pointer to starting node of list 2*/
           void *(*iterator(void *)),        /*Iterator function callback*/
-          int comparator(void *, void *));  /*Comparison function callback*/
+          int comparator(void *, void *),   /*Comparison function callback*/
+          void *(*get_app_data(void *)));   /*get application data function callback*/
 
 
 
